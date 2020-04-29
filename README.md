@@ -66,6 +66,14 @@ you can use
 
 ```bash
 sudo apt-get install proxychains
+
+## edit configure file
+
+vim /etc/proxychains.conf
+
+## change the last line
+
+socks5  127.0.0.1 1080
 ```
 
 then wget command will use your ssr config
@@ -73,3 +81,9 @@ then wget command will use your ssr config
 proxychains wget www.google.com
 
 ```
+
+## in chrome
+
+you need extension: **Proxy SwitchyOmega**
+
+change the same as proxychains
